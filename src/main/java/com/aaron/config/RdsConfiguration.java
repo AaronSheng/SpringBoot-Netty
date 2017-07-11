@@ -13,9 +13,6 @@ import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 import javax.sql.DataSource;
 import java.util.Properties;
 
-/**
- * Created by Aaron Sheng on 9/12/16.
- */
 @Configuration
 public class RdsConfiguration {
     @Value("${spring.datasource.serverurl}")
